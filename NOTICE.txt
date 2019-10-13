@@ -29,3 +29,4 @@ The following tools and components are required:
 Los contribuidores son:
 
 Antonio.
+Antonio Romero Cáceres | correo: antromcac@alum.us.es
