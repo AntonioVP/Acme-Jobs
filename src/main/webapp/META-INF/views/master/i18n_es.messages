@@ -29,8 +29,13 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.shout.list = Persona anónima
-master.menu.anonymous.shout.form = Crear
+
+master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite.antonioV = Enlade de Antonio
+
+master.menu.anonymous.shout.list = Listar gritos
+master.menu.anonymous.shout.form = Gritar!
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

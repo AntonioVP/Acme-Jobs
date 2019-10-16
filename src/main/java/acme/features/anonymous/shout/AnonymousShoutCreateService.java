@@ -1,15 +1,3 @@
-/*
- * AnonymousShoutController.java
- *
- * Copyright (c) 2019 Rafael Corchuelo.
- *
- * In keeping with the traditional purpose of furthering education and research, it is
- * the policy of the copyright owner to permit non-commercial use and redistribution of
- * this software. It has been tested carefully, but it is not guaranteed for any particular
- * purposes. The copyright owner does not offer any warranties or representations, nor do
- * they accept any liabilities with respect to them.
- */
-
 package acme.features.anonymous.shout;
 
 import java.util.Date;
@@ -33,14 +21,14 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 	AnonymousShoutRepository repository;
 
 
-	// Constructors -----------------------------------------------------------
-
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
 
 		return true;
 	}
+
+
 	@Override
 	public Shout instantiate(final Request<Shout> request) {
 		assert request != null;
@@ -75,6 +63,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 		request.bind(entity, errors);
 	}
+
+
 	@Override
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
 		assert request != null;
@@ -82,6 +72,8 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		assert errors != null;
 
 	}
+
+
 	@Override
 	public void create(final Request<Shout> request, final Shout entity) {
 		assert request != null;
@@ -94,5 +86,4 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		this.repository.save(entity);
 
 	}
-
 }
