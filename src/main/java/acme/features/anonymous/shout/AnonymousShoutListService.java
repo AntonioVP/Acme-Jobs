@@ -1,4 +1,3 @@
-
 package acme.features.anonymous.shout;
 
 import java.util.Collection;
@@ -19,6 +18,7 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 
 	@Autowired
 	AnonymousShoutRepository repository;
+
 
 
 	// AbstractListService<Administrator, Shout> interface --------------------
@@ -49,5 +49,4 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 
 		return result;
 	}
-
 }
