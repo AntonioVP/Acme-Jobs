@@ -16,7 +16,7 @@ master.banner.background = #FFE97F
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Welcome to Starter Project! Never before has it bee easier to get your \
+	Welcome to Starter Project! Never before has it been easier to get your \
 	project up and running!
 
 # master.menu #################################################################
@@ -41,6 +41,7 @@ master.menu.administrator.shutdown = Shut down
 
 master.menu.provider = Provider
 master.menu.provider.favourite-link = Favourite link
+master.menu.provider.favourite-link-ggp = Link to Warframe
 
 # master.menu.consumer ##########################################################
 
