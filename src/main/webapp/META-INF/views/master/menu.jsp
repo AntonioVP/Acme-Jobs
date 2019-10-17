@@ -21,7 +21,8 @@
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 
 			<acme:menu-suboption code="master.menu.anonymous.favourite.antonioV" action="https://www.chess.com"/>
-
+			<acme:menu-suboption code="master.menu.anonymous.favourite.pablo" action="https://mrdoob.com/projects/chromeexperiments/google-gravity"/>
+			
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.form" action="/anonymous/shout/create"/>
 		</acme:menu-option>
