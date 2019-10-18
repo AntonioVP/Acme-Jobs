@@ -20,9 +20,21 @@
 	<!-- Shouts -->
 
 	<bean id="shout01" class="acme.entities.shouts.Shout">
-		<property name="author" value="Paco" />
-		<property name="text" value="Toy contento" />
-		<property name="moment" value="2019/11/09 10:00" />
+		<property name="author" value="John Doe" />
+		<property name="text" value="I'm happy" />
+		<property name="moment" value="2019/10/09 10:00" />
+	</bean>
+	
+	<bean id="shout02" class="acme.entities.shouts.Shout">
+		<property name="author" value="Kvothe" />
+		<property name="text" value="Bloodless" />
+		<property name="moment" value="2019/10/09 10:00" />
+	</bean>
+	
+	<bean id="shout03" class="acme.entities.shouts.Shout">
+		<property name="author" value="Foo Bar" />
+		<property name="text" value="Just turnning 20!" />
+		<property name="moment" value="2019/09/07 10:00" />
 	</bean>
 	
 </beans>
