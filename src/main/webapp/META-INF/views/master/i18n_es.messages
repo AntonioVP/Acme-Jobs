@@ -16,8 +16,8 @@ master.banner.background = #EFE4B0
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme Jobs!  No volveras a preocuparte por tener que buscar sin\
-	exito trabajo o nuevos empleados. ¡Empieza a ganar dinero!
+	Bienvenidos a Acme-Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
+	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
 
@@ -29,7 +29,15 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
+
 master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite.antonioV = Enlace de Antonio
+master.menu.anonymous.favourite.antonioR = Enlace de Antonio Romero
+master.menu.anonymous.favourite.pablo = Enlace de Pablo
+master.menu.anonymous.favourite-link-ggp = Enlace a Warframe
+
+master.menu.anonymous.shout.list = Listar gritos
+master.menu.anonymous.shout.form = Gritar!
 
 # master.menu.administrator ###################################################
 
@@ -72,10 +80,10 @@ master.footer.label.spanish = Español
 
 master.company.title = La compañía
 master.company.text = \
-	Starter Project, Inc. es una compañía fictícia que proporciona un proyecto \
+	Acme-Jobs, Inc. es una compañía fictícia que proporciona un proyecto \
 	plantilla para los estudiantes de la asignatura Diseño y Pruebas, en el Grado \
 	en Ingeniería del Software de la Universidad de Sevilla.
-master.company.name = Acme Jobs, Inc.
+master.company.name = Acme-Jobs, Inc.
 master.company.address = Calle, número, Ciudad, Estado, País
 master.company.phone = +000 123 456
 master.company.email = contact@acme.com
@@ -91,4 +99,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
