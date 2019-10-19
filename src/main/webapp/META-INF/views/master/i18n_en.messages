@@ -10,7 +10,7 @@
 
 # master.banner.welcome #######################################################
 
-master.banner.background = #FFE97F 
+master.banner.background = #EFE4B0
 
 # master.welcome ##############################################################
 
@@ -32,6 +32,9 @@ master.menu.anonymous = Anonymous
 
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.favourite.antonioV = Antonio's link
+master.menu.anonymous.favourite.antonioR = Antonio´s Romero link
+master.menu.anonymous.favourite.pablo = Pablo's link
+master.menu.anonymous.favourite-link-ggp = Gabriel's link
 master.menu.anonymous.favourite.thibaut = Thibaut's link
 
 master.menu.anonymous.shout.list = List shout
