@@ -1,4 +1,3 @@
-
 package acme.entities.shouts;
 
 import java.util.Date;
@@ -16,14 +15,14 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-
 public class Shout extends DomainEntity {
 
-	// Serialisation ---------------------------------------------------------
+
+	// Serialisation identifier -----------------------------------------------
 
 	private static final long	serialVersionUID	= 1L;
 
-	// Atributes -------------------------------------------------------------
+	// Attributes -------------------------------------------------------------
 
 	@NotBlank
 	private String				author;
