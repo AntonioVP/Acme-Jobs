@@ -1,4 +1,3 @@
-
 package acme.features.anonymous.shout;
 
 import java.util.Date;
@@ -16,7 +15,7 @@ import acme.framework.services.AbstractCreateService;
 @Service
 public class AnonymousShoutCreateService implements AbstractCreateService<Anonymous, Shout> {
 
-	// Internal state -------------------------------------------------------
+	// Internal state ---------------------------------------------------------
 
 	@Autowired
 	AnonymousShoutRepository repository;
@@ -29,6 +28,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		return true;
 	}
 
+
 	@Override
 	public Shout instantiate(final Request<Shout> request) {
 		assert request != null;
@@ -40,7 +40,7 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 
 		result = new Shout();
 		result.setAuthor("John Doe");
-		result.setText("Lorem ipsum");
+		result.setText("Lorem ipsum!");
 		result.setMoment(moment);
 
 		return result;
@@ -64,12 +64,15 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		request.bind(entity, errors);
 	}
 
+
 	@Override
 	public void validate(final Request<Shout> request, final Shout entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
+
 	}
+
 
 	@Override
 	public void create(final Request<Shout> request, final Shout entity) {
@@ -81,5 +84,6 @@ public class AnonymousShoutCreateService implements AbstractCreateService<Anonym
 		moment = new Date(System.currentTimeMillis() - 1);
 		entity.setMoment(moment);
 		this.repository.save(entity);
+
 	}
 }

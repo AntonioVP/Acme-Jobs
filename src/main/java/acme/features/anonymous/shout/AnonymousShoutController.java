@@ -1,4 +1,3 @@
-
 package acme.features.anonymous.shout;
 
 import javax.annotation.PostConstruct;
@@ -16,21 +15,20 @@ import acme.framework.entities.Anonymous;
 @RequestMapping("/anonymous/shout/")
 public class AnonymousShoutController extends AbstractController<Anonymous, Shout> {
 
-	// Internal state -----------------------------------------------------------
+	// Internal state ---------------------------------------------------------
 
 	@Autowired
 	private AnonymousShoutListService	listService;
 
 	@Autowired
-	private AnonymousShoutListService	createService;
+	private AnonymousShoutCreateService	createService;
 
 
-	// Constructors --------------------------------------------------------------
+	// Constructors -----------------------------------------------------------
 
 	@PostConstruct
 	private void initialise() {
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 	}
-
 }
