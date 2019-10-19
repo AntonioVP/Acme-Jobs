@@ -1,4 +1,3 @@
-
 package acme.features.anonymous.shout;
 
 import java.util.Collection;
@@ -15,19 +14,29 @@ import acme.framework.services.AbstractListService;
 @Service
 public class AnonymousShoutListService implements AbstractListService<Anonymous, Shout> {
 
-	// Internal state
+	// Internal state ---------------------------------------------------------
 
 	@Autowired
 	AnonymousShoutRepository repository;
 
 
-	// AbstractListService<Administrator, Shout> interface
+
+	// AbstractListService<Administrator, Shout> interface --------------------
 
 	@Override
 	public boolean authorise(final Request<Shout> request) {
 		assert request != null;
 
 		return true;
+	}
+
+	@Override
+	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
+		assert request != null;
+		assert entity != null;
+		assert model != null;
+
+		request.unbind(entity, model, "author", "text", "moment");
 	}
 
 	@Override
@@ -39,14 +48,5 @@ public class AnonymousShoutListService implements AbstractListService<Anonymous,
 		result = this.repository.findMany();
 
 		return result;
-	}
-
-	@Override
-	public void unbind(final Request<Shout> request, final Shout entity, final Model model) {
-		assert request != null;
-		assert entity != null;
-		assert model != null;
-
-		request.unbind(entity, model, "author", "text", "moment");
 	}
 }
