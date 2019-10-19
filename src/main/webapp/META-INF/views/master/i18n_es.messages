@@ -12,7 +12,7 @@
 
 master.banner.background = #EFE4B0
 
-﻿# master.welcome ##############################################################
+# master.welcome ##############################################################
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
