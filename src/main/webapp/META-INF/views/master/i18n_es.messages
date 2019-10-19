@@ -34,6 +34,7 @@ master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.favourite.antonioV = Enlace de Antonio
 master.menu.anonymous.favourite.antonioR = Enlace de Antonio Romero
 master.menu.anonymous.favourite.pablo = Enlace de Pablo
+master.menu.anonymous.favourite-link-ggp = Enlace a Warframe
 
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.form = Gritar!
@@ -98,4 +99,3 @@ master.license.text = \
 	durante un máximo de 31 días y "language" para almacenar sus preferencias de \
 	lenguage.  Además, almacenamos un ítem llamado "returnStack" en el almacenamiento \
 	local de su navegador para saber dónde tienen que ir algunos botones.
-	
