@@ -312,4 +312,20 @@ Shout
 +text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>196</x>
+      <y>441</y>
+      <w>350</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Bulletin
+--
++type: String{NotBlank,Pattern(Franco | Gutierrez | Lopez | Romero | Vidal)}
++author: String {NotBlank}
++text: String {NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

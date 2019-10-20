@@ -37,4 +37,36 @@
 		<property name="moment" value="2019/09/07 00:00" />
 	</bean>
 	
+		<!-- Bulletins-->
+
+	<bean id="Bulletin01" class="acme.entities.bulletins.Bulletin">
+		<property name="name" value="FrancoBulletin" />
+		<property name="text" value="I am a developer" />
+		<property name="type" value="Franco" />
+	</bean>
+	
+	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
+		<property name="name" value="GutierrezBulletin"/>
+		<property name="text" value="I am a developer" />
+		<property name="type" value="Gutierrez" />
+		
+	</bean>
+		<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
+		<property name="name" value="LopezBulletin"/>
+		<property name="text" value="I am a developer" />
+		<property name="type" value="Lopez" />
+		
+	</bean>
+		<bean id="Bulletin04" class="acme.entities.bulletins.Bulletin">
+		<property name="name" value="RomeroBulletin"/>
+		<property name="text" value="I am a developer" />
+		<property name="type" value="Romero" />
+		
+	</bean>
+		<bean id="Bulletin05" class="acme.entities.bulletins.Bulletin">
+		<property name="name" value="VidalBulletin"/>
+		<property name="text" value="I am project manager" />
+		<property name="type" value="Vidal" />
+		
+	</bean>
 </beans>
