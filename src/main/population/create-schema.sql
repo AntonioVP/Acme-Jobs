@@ -20,15 +20,6 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `bulletin` (
-       `id` integer not null,
-        `version` integer not null,
-        `name` varchar(255),
-        `text` varchar(255),
-        `type` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
     create table `consumer` (
        `id` integer not null,
         `version` integer not null,
@@ -44,6 +35,16 @@
         `user_account_id` integer,
         `company` varchar(255),
         `sector` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `romero_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `bibliography` varchar(255),
+        `moment` datetime(6),
+        `name` varchar(255),
+        `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 

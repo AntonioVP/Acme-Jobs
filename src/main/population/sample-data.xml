@@ -39,34 +39,24 @@
 	
 		<!-- Bulletins-->
 
-	<bean id="Bulletin01" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="FrancoBulletin" />
+	<bean id="romeroBulletin01" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Antonio Romero" />
 		<property name="text" value="I am a developer" />
-		<property name="type" value="Franco" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/08/07 01:00"/>
 	</bean>
 	
-	<bean id="Bulletin02" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="GutierrezBulletin"/>
-		<property name="text" value="I am a developer" />
-		<property name="type" value="Gutierrez" />
-		
+	<bean id="romeroBulletin02" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value=" I'm working" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/07/07 01:00"/>
 	</bean>
-		<bean id="Bulletin03" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="LopezBulletin"/>
-		<property name="text" value="I am a developer" />
-		<property name="type" value="Lopez" />
-		
-	</bean>
-		<bean id="Bulletin04" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="RomeroBulletin"/>
-		<property name="text" value="I am a developer" />
-		<property name="type" value="Romero" />
-		
-	</bean>
-		<bean id="Bulletin05" class="acme.entities.bulletins.Bulletin">
-		<property name="name" value="VidalBulletin"/>
-		<property name="text" value="I am project manager" />
-		<property name="type" value="Vidal" />
-		
+	
+	<bean id="romeroBulletin03" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value="I am jobless" />
+		<property name="bibliography" value="I'm not very smart" />
+		<property name="moment" value="2019/06/07 01:00"/>
 	</bean>
 </beans>

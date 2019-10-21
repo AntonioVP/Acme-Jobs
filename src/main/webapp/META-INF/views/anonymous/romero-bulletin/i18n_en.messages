@@ -9,13 +9,14 @@
 # they accept any liabilities with respect to them.
 
 #BULLETIN LIST
-anonymous.bulletin.list.label.name = name
-anonymous.bulletin.list.label.text = Text
-anonymous.bulletin.list.label.type = Type
+anonymous.romero-bulletin.list.label.name = Name
+anonymous.romero-bulletin.list.label.text = Text
+anonymous.romero-bulletin.list.label.bibliography = Bibliography
+anonymous.romero-bulletin.list.label.moment = Moment
 
 #BULLETIN FORM CREATE
-anonymous.bulletin.form.label.name = Name
-anonymous.bulletin.form.label.text = Text
-
-anonymous.bulletin.form.button.create = Create
-anonymous.bulletin.form.button.return = Return
+anonymous.romero-bulletin.form.label.name = Name
+anonymous.romero-bulletin.form.label.text = Text
+anonymous.romero-bulletin.form.label.bibliography = Bibliography
+anonymous.romero-bulletin.form.button.create = Create
+anonymous.romero-bulletin.form.button.return = Return

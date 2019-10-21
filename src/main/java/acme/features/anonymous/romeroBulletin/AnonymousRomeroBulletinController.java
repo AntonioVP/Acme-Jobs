@@ -1,5 +1,5 @@
 
-package acme.features.anonymous.bulletin;
+package acme.features.anonymous.romeroBulletin;
 
 import javax.annotation.PostConstruct;
 
@@ -7,22 +7,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletins.Bulletin;
+import acme.entities.romeroBulletins.RomeroBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/bulletin/")
-public class AnonymousBulletinController extends AbstractController<Anonymous, Bulletin> {
+@RequestMapping("/anonymous/romero-bulletin/")
+public class AnonymousRomeroBulletinController extends AbstractController<Anonymous, RomeroBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	private AnonymousBulletinListService	listService;
+	private AnonymousRomeroBulletinListService		listService;
 
 	@Autowired
-	private AnonymousBulletinCreateService	createService;
+	private AnonymousRomeroBulletinCreateService	createService;
 
 
 	// Constructors -----------------------------------------------------------

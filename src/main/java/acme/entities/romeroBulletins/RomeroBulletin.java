@@ -1,9 +1,13 @@
 
-package acme.entities.bulletins;
+package acme.entities.romeroBulletins;
+
+import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Past;
 
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
@@ -12,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Bulletin extends DomainEntity {
+public class RomeroBulletin extends DomainEntity {
 
 	// Serialisation identifier -----------------------------------------------
 
@@ -27,8 +31,11 @@ public class Bulletin extends DomainEntity {
 	private String				text;
 
 	@NotBlank
-	@Pattern(regexp = "Franco|Gutierrez|Lopez|Romero|Vidal")
-	private String				type;
+	private String				bibliography;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@Past
+	private Date				moment;
 
 	// Derived attributes -----------------------------------------------------
 

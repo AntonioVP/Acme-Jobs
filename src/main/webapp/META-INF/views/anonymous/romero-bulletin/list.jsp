@@ -16,6 +16,8 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:list readonly="true">
-	<acme:list-column code="anonymous.bulletin.list.label.name" path="name" width="20%"/>
-	<acme:list-column code="anonymous.bulletin.list.label.text" path="text" width="60%"/>
+	<acme:list-column code="anonymous.romero-bulletin.list.label.name" path="name" width="20%"/>
+	<acme:list-column code="anonymous.romero-bulletin.list.label.text" path="text" width="60%"/>
+	<acme:list-column code="anonymous.romero-bulletin.list.label.bibliography" path="bibliography" width="60%"/>
+	<acme:list-column code="anonymous.romero-bulletin.list.label.moment" path="moment" width="20%"/>
 </acme:list>

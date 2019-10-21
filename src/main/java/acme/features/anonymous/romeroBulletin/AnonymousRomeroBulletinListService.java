@@ -1,46 +1,46 @@
 
-package acme.features.anonymous.bulletin;
+package acme.features.anonymous.romeroBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletins.Bulletin;
+import acme.entities.romeroBulletins.RomeroBulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousBulletinListService implements AbstractListService<Anonymous, Bulletin> {
+public class AnonymousRomeroBulletinListService implements AbstractListService<Anonymous, RomeroBulletin> {
 
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AnonymousBulletinRepository repository;
+	AnonymousRomeroBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Bulletin> request) {
+	public boolean authorise(final Request<RomeroBulletin> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void unbind(final Request<Bulletin> request, final Bulletin entity, final Model model) {
+	public void unbind(final Request<RomeroBulletin> request, final RomeroBulletin entity, final Model model) {
 
 		assert request != null;
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "name", "text", "type");
+		request.unbind(entity, model, "name", "text", "bibliography", "moment");
 	}
 
 	@Override
-	public Collection<Bulletin> findMany(final Request<Bulletin> request) {
+	public Collection<RomeroBulletin> findMany(final Request<RomeroBulletin> request) {
 		assert request != null;
-		Collection<Bulletin> result;
+		Collection<RomeroBulletin> result;
 
 		result = this.repository.findMany();
 		return result;

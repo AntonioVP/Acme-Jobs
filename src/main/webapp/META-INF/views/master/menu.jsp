@@ -29,8 +29,8 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.form" action="/anonymous/shout/create"/>
 			
-			<acme:menu-suboption code="master.menu.anonymous.bulletin.list" action="/anonymous/bulletin/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.bulletin.form" action="/anonymous/bulletin/create"/>
+			<acme:menu-suboption code="master.menu.anonymous.romeroBulletin.list" action="/anonymous/romero-bulletin/list"/>
+      		<acme:menu-suboption code="master.menu.anonymous.romeroBulletin.form" action="/anonymous/romero-bulletin/create"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
