@@ -37,4 +37,27 @@
 		<property name="moment" value="2019/09/07 00:00" />
 	</bean>
 	
+	<!-- Bulletins-->
+
+	<bean id="lopezBulletin01" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Thibaut Lopez" />
+		<property name="text" value="I am a developer" />
+		<property name="location" value="Seville" />
+		<property name="moment" value="2019/08/06 09:00"/>
+	</bean>
+	
+	<bean id="lopezBulletin02" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Pepe Botella"/>
+		<property name="text" value=" I'm drinking" />
+		<property name="location" value="Las Vegas" />
+		<property name="moment" value="2017/07/08 03:00"/>
+	</bean>
+	
+	<bean id="lopezBulletin03" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Jotaro Kujo"/>
+		<property name="text" value="Kicking Dio's ass" />
+		<property name="location" value="Eqypt" />
+		<property name="moment" value="1989/08/26 18:00"/>
+	</bean>
+	
 </beans>
