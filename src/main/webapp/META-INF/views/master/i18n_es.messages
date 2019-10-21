@@ -16,7 +16,7 @@ master.banner.background = #EFE4B0
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme-Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
+	¡Bienvenidos a Acme-Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
@@ -40,6 +40,8 @@ master.menu.anonymous.favourite.thibaut = Enlace de Thibaut
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.form = Gritar!
 
+master.menu.anonymous.gutierrezBulletin.list = Listar Gutierrez-Boletines
+master.menu.anonymous.gutierrezBulletin.form = Crear Gutierrez-Boletines
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
