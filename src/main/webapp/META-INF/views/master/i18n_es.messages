@@ -43,6 +43,9 @@ master.menu.anonymous.shout.form = Gritar!
 master.menu.anonymous.vidalBulletin.list = Listar Bulletin Vidal
 master.menu.anonymous.vidalBulletin.form = Crear Bulletin Vidal
 
+master.menu.anonymous.romeroBulletin.list = Listar Romero-Boletines
+master.menu.anonymous.romeroBulletin.form = Crear Romero-Boletines
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

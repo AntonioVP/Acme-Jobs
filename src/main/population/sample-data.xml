@@ -37,7 +37,7 @@
 		<property name="moment" value="2019/09/07 00:00" />
 	</bean>
 	
-	<!-- Shouts -->
+	<!-- Vidal Bulletin -->
 	
 	<bean id="vidalBulletin01" class="acme.entities.vidalBulletins.VidalBulletin">
 		<property name="type" value="ACADEMIC" />
@@ -58,5 +58,29 @@
 		<property name="title" value="Leslie al descubierto" />
 		<property name="author" value="Foo Bar" />
 		<property name="text" value="La realidad es que Leslie lo que quiere es vaguear." />
+	</bean>
+</beans>
+
+		<!-- Romero Bulletins-->
+
+	<bean id="romeroBulletin01" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Antonio Romero" />
+		<property name="text" value="I am a developer" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/08/07 01:00"/>
+	</bean>
+	
+	<bean id="romeroBulletin02" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value=" I'm working" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/07/07 01:00"/>
+	</bean>
+	
+	<bean id="romeroBulletin03" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value="I am jobless" />
+		<property name="bibliography" value="I'm not very smart" />
+		<property name="moment" value="2019/06/07 01:00"/>
 	</bean>
 </beans>
