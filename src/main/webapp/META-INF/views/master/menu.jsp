@@ -29,6 +29,9 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.list" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout.form" action="/anonymous/shout/create"/>
 			
+			<acme:menu-suboption code="master.menu.anonymous.gutierrezBulletin.list" action="/anonymous/gutierrez-bulletin/list"/>
+      <acme:menu-suboption code="master.menu.anonymous.gutierrezBulletin.form" action="/anonymous/gutierrez-bulletin/create"/>
+
 			<acme:menu-suboption code="master.menu.anonymous.vidalBulletin.list" action="/anonymous/vidal-bulletin/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.vidalBulletin.form" action="/anonymous/vidal-bulletin/create"/>
 

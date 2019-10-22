@@ -46,6 +46,9 @@ master.menu.anonymous.vidalBulletin.form = Create Vidal Bulletin
 master.menu.anonymous.romeroBulletin.list = List Romero-Bulletin
 master.menu.anonymous.romeroBulletin.form = Create Romero-Bulletin
 
+master.menu.anonymous.gutierrezBulletin.list = List Gutierrez-Bulletin
+master.menu.anonymous.gutierrezBulletin.form = Create Gutierrez-Bulletin
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
