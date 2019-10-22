@@ -152,6 +152,61 @@ LOCK TABLES `consumer` WRITE;
 UNLOCK TABLES;
 
 --
+-- Table structure for table `franco_bulletin`
+--
+
+DROP TABLE IF EXISTS `franco_bulletin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `franco_bulletin` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `author` varchar(255) DEFAULT NULL,
+  `fecha` datetime(6) DEFAULT NULL,
+  `summary` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `franco_bulletin`
+--
+
+LOCK TABLES `franco_bulletin` WRITE;
+/*!40000 ALTER TABLE `franco_bulletin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `franco_bulletin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `gutierrez_bulletin`
+--
+
+DROP TABLE IF EXISTS `gutierrez_bulletin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `gutierrez_bulletin` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `moment` datetime(6) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `novel` varchar(255) DEFAULT NULL,
+  `opinion` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gutierrez_bulletin`
+--
+
+LOCK TABLES `gutierrez_bulletin` WRITE;
+/*!40000 ALTER TABLE `gutierrez_bulletin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gutierrez_bulletin` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `hibernate_sequence`
 --
 
@@ -171,6 +226,33 @@ LOCK TABLES `hibernate_sequence` WRITE;
 /*!40000 ALTER TABLE `hibernate_sequence` DISABLE KEYS */;
 INSERT INTO `hibernate_sequence` VALUES (6);
 /*!40000 ALTER TABLE `hibernate_sequence` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `lopez_bulletin`
+--
+
+DROP TABLE IF EXISTS `lopez_bulletin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `lopez_bulletin` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `location` varchar(255) DEFAULT NULL,
+  `moment` datetime(6) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `lopez_bulletin`
+--
+
+LOCK TABLES `lopez_bulletin` WRITE;
+/*!40000 ALTER TABLE `lopez_bulletin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `lopez_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -225,7 +307,6 @@ CREATE TABLE `romero_bulletin` (
 
 LOCK TABLES `romero_bulletin` WRITE;
 /*!40000 ALTER TABLE `romero_bulletin` DISABLE KEYS */;
-INSERT INTO `romero_bulletin` VALUES (9,0,'Student of the University of Seville','2019-08-06 23:00:00.000000','Antonio Romero','I am a developer'),(10,0,'Student of the University of Seville','2019-07-06 23:00:00.000000','Rodrigo Vidal',' I\'m working'),(11,0,'I\'m not very smart','2019-06-06 23:00:00.000000','Rodrigo Vidal','I am jobless'),(12,0,'I have already graduated','2019-10-21 14:26:50.031000','Pablo','lorem ipsum');
 /*!40000 ALTER TABLE `romero_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -282,8 +363,35 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$XZM2dYPrnF.QcjPD6o7CGepjTYub/f0UFjT5i9g5.dPh3tCu.xHEa','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$gosEpT0V3MbukvpASq5PveJPtL4Ml7agZI4HkVG1xGh0mL4QHPUv.','administrator');
+INSERT INTO `user_account` VALUES (1,0,_binary '\0','john.doe@acme.com','John','Doe','$2a$05$xCgMelLO6dANWnM6fXXTeuuyuBCoruLylI9b8HvoTMal4QV0P6qJ.','anonymous'),(3,0,_binary '','administrator@acme.com','Administrator','Acme.com','$2a$05$n0xVvodJMsX2JjGl9sRgN.kUuC3Q3NnkmlpD3vI.qbNQxpSzNVnUq','administrator');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `vidal_bulletin`
+--
+
+DROP TABLE IF EXISTS `vidal_bulletin`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `vidal_bulletin` (
+  `id` int(11) NOT NULL,
+  `version` int(11) NOT NULL,
+  `author` varchar(255) DEFAULT NULL,
+  `text` varchar(255) DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `vidal_bulletin`
+--
+
+LOCK TABLES `vidal_bulletin` WRITE;
+/*!40000 ALTER TABLE `vidal_bulletin` DISABLE KEYS */;
+/*!40000 ALTER TABLE `vidal_bulletin` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -295,4 +403,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-10-22 11:10:55
+-- Dump completed on 2019-10-22 18:56:36
