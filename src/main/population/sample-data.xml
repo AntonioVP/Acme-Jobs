@@ -37,6 +37,22 @@
 		<property name="moment" value="2019/09/07 00:00" />
 	</bean>
 	
+	<!-- FrancoBulletin -->
+	
+	<bean id="FrancoBulletin01" class="acme.entities.francoBulletins.FrancoBulletin">
+		<property name="author" value="Pablo Franco" />
+		<property name="text" value="This is a test Bulletin" />
+		<property name="summary" value="Franco Bulletin for Acme Jobs" />
+		<property name="fecha" value="2019/10/21 00:00" />
+	</bean>	
+	
+		<bean id="FrancoBulletin02" class="acme.entities.francoBulletins.FrancoBulletin">
+		<property name="author" value="Kvothe" />
+		<property name="text" value="KingsKiller" />
+		<property name="summary" value="Una historia que nunca se deberia contar" />
+		<property name="fecha" value="2019/01/21 00:00" />
+	</bean>	
+
 	<!-- Lopez Bulletins-->
 
 	<bean id="lopezBulletin01" class="acme.entities.lopezBulletins.LopezBulletin">
