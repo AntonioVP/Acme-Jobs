@@ -312,4 +312,21 @@ Shout
 +text: String {NotBlank}</panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>350</y>
+      <w>210</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+FrancoBulletin
+--
++author: String {NotBlank}
++text: String {NotBlank}
++fecha: Date{Temporal(TIMESTAMP),Past}
++summary: String{NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

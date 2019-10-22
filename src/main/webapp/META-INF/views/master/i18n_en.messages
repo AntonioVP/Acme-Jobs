@@ -40,6 +40,9 @@ master.menu.anonymous.favourite.thibaut = Thibaut's link
 master.menu.anonymous.shout.list = List shout
 master.menu.anonymous.shout.form = Shout!
 
+master.menu.anonymous.francoBulletin.form= Create FrancoBulletin
+master.menu.anonymous.francoBulletin.list= List FrancoBulletin
+
 
 # master.menu.administrator ###################################################
 

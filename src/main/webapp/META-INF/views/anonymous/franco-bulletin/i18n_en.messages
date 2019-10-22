@@ -1,0 +1,24 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+#FRANCOBULLETIN LIST
+anonymous.francoBulletin.list.label.date = Date
+anonymous.francoBulletin.list.label.author = Author
+anonymous.francoBulletin.list.label.text = Text
+anonymous.francoBulletin.list.label.summary = Summary
+
+#FRANCOBULLETIN FORM CREATE
+anonymous.francoBulletin.form.label.date = Date
+anonymous.francoBulletin.form.label.text = Text
+anonymous.francoBulletin.form.label.author = Author
+anonymous.francoBulletin.form.label.summary = Summary
+
+anonymous.francoBulletin.form.button.create = Create
+anonymous.francoBulletin.form.button.return = Return
