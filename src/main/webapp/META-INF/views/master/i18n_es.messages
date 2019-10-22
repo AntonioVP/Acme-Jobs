@@ -40,6 +40,9 @@ master.menu.anonymous.favourite.thibaut = Enlace de Thibaut
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.form = Gritar!
 
+master.menu.anonymous.vidalBulletin.list = Listar Bulletin Vidal
+master.menu.anonymous.vidalBulletin.form = Crear Bulletin Vidal
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador

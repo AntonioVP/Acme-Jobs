@@ -37,4 +37,26 @@
 		<property name="moment" value="2019/09/07 00:00" />
 	</bean>
 	
+	<!-- Shouts -->
+	
+	<bean id="vidalBulletin01" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="ACADEMIC" />
+		<property name="title" value="Increible alumno encuentra Leslie!" />
+		<property name="author" value="John Don" />
+		<property name="text" value="I'm happy!" />
+	</bean>
+	
+	<bean id="vidalBulletin02" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="SCIENTIFIC" />
+		<property name="title" value="Leslie descubre la formula para aprobar" />
+		<property name="author" value="Jane Doe"/>
+		<property name="text" value="Al parecer NO estaba en lo cierto y conduce al fracaso." />
+	</bean>
+	
+	<bean id="vidalBulletin03" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="OTHER" />
+		<property name="title" value="Leslie al descubierto" />
+		<property name="author" value="Foo Bar" />
+		<property name="text" value="La realidad es que Leslie lo que quiere es vaguear." />
+	</bean>
 </beans>
