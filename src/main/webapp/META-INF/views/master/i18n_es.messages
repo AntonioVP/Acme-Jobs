@@ -40,6 +40,9 @@ master.menu.anonymous.favourite.thibaut = Enlace de Thibaut
 master.menu.anonymous.shout.list = Listar gritos
 master.menu.anonymous.shout.form = Gritar!
 
+master.menu.anonymous.lopezBulletin.list = Listar LopezBoletin
+master.menu.anonymous.lopezBulletin.form = Crear LopezBoletin
+
 master.menu.anonymous.gutierrezBulletin.list = Listar Gutierrez-Boletines
 master.menu.anonymous.gutierrezBulletin.form = Crear Gutierrez-Boletines
 

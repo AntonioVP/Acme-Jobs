@@ -1,0 +1,12 @@
+#BULLETIN LIST
+anonymous.lopez-bulletin.list.label.name = Name
+anonymous.lopez-bulletin.list.label.text = Text
+anonymous.lopez-bulletin.list.label.location = Location
+anonymous.lopez-bulletin.list.label.moment = Moment
+
+#BULLETIN FORM CREATE
+anonymous.lopez-bulletin.form.label.name = Name
+anonymous.lopez-bulletin.form.label.text = Text
+anonymous.lopez-bulletin.form.label.location = Location
+anonymous.lopez-bulletin.form.button.create = Create
+anonymous.lopez-bulletin.form.button.return = Return
