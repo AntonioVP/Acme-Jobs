@@ -49,6 +49,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `romero_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `bibliography` varchar(255),
+        `moment` datetime(6),
+        `name` varchar(255),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `shout` (
        `id` integer not null,
         `version` integer not null,
@@ -67,6 +77,16 @@
         `identity_surname` varchar(255),
         `password` varchar(255),
         `username` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `vidal_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `text` varchar(255),
+        `title` varchar(255),
+        `type` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
