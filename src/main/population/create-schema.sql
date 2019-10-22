@@ -69,6 +69,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `vidal_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `text` varchar(255),
+        `title` varchar(255),
+        `type` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `hibernate_sequence` (
        `next_val` bigint
     ) engine=InnoDB;
