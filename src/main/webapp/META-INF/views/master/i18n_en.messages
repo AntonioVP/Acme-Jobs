@@ -41,6 +41,9 @@ master.menu.anonymous.shout.list = List shout
 master.menu.anonymous.shout.form = Shout!
 
 
+master.menu.anonymous.romeroBulletin.list = List Romero-Bulletin
+master.menu.anonymous.romeroBulletin.form = Create Romero-Bulletin
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
