@@ -52,6 +52,74 @@
 		<property name="summary" value="Una historia que nunca se deberia contar" />
 		<property name="fecha" value="2019/01/21 00:00" />
 	</bean>	
+
+	<!-- Lopez Bulletins-->
+
+	<bean id="lopezBulletin01" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Thibaut Lopez" />
+		<property name="text" value="I am a developer" />
+		<property name="location" value="Seville" />
+		<property name="moment" value="2019/08/06 09:00"/>
+	</bean>
 	
+	<bean id="lopezBulletin02" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Pepe Botella"/>
+		<property name="text" value=" I'm drinking" />
+		<property name="location" value="Las Vegas" />
+		<property name="moment" value="2017/07/08 03:00"/>
+	</bean>
 	
+	<bean id="lopezBulletin03" class="acme.entities.lopezBulletins.LopezBulletin">
+		<property name="name" value="Jotaro Kujo"/>
+		<property name="text" value="Kicking Dio's ass" />
+		<property name="location" value="Eqypt" />
+		<property name="moment" value="1989/08/26 18:00"/>
+	</bean>
+	
+	<!-- Vidal Bulletin -->
+	
+	<bean id="vidalBulletin01" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="ACADEMIC" />
+		<property name="title" value="Increible alumno encuentra Leslie!" />
+		<property name="author" value="John Don" />
+		<property name="text" value="I'm happy!" />
+	</bean>
+	
+	<bean id="vidalBulletin02" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="SCIENTIFIC" />
+		<property name="title" value="Leslie descubre la formula para aprobar" />
+		<property name="author" value="Jane Doe"/>
+		<property name="text" value="Al parecer NO estaba en lo cierto y conduce al fracaso." />
+	</bean>
+	
+	<bean id="vidalBulletin03" class="acme.entities.vidalBulletins.VidalBulletin">
+		<property name="type" value="OTHER" />
+		<property name="title" value="Leslie al descubierto" />
+		<property name="author" value="Foo Bar" />
+		<property name="text" value="La realidad es que Leslie lo que quiere es vaguear." />
+	</bean>
+</beans>
+
+		<!-- Romero Bulletins-->
+
+	<bean id="romeroBulletin01" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Antonio Romero" />
+		<property name="text" value="I am a developer" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/08/07 01:00"/>
+	</bean>
+	
+	<bean id="romeroBulletin02" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value=" I'm working" />
+		<property name="bibliography" value="Student of the University of Seville" />
+		<property name="moment" value="2019/07/07 01:00"/>
+	</bean>
+	
+	<bean id="romeroBulletin03" class="acme.entities.romeroBulletins.RomeroBulletin">
+		<property name="name" value="Rodrigo Vidal"/>
+		<property name="text" value="I am jobless" />
+		<property name="bibliography" value="I'm not very smart" />
+		<property name="moment" value="2019/06/07 01:00"/>
+	</bean>
 </beans>

@@ -1,0 +1,28 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+#SHOUT LIST
+anonymous.vidalBulletin.list.label.type = Type
+anonymous.vidalBulletin.list.label.title = Title
+anonymous.vidalBulletin.list.label.author = Author
+anonymous.vidalBulletin.list.label.text = Text
+
+#SHOUT FORM CREATE
+anonymous.vidalBulletin.form.label.type = Type
+anonymous.vidalBulletin.form.label.type.academic = ACADEMIC
+anonymous.vidalBulletin.form.label.type.scientific = SCIENTIFIC
+anonymous.vidalBulletin.form.label.type.other = OTHER
+
+anonymous.vidalBulletin.form.label.title = Title
+anonymous.vidalBulletin.form.label.author = Author
+anonymous.vidalBulletin.form.label.text = Text
+
+anonymous.vidalBulletin.form.button.create = Create
+anonymous.vidalBulletin.form.button.return = Return

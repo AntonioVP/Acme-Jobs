@@ -43,6 +43,17 @@ master.menu.anonymous.shout.form = Shout!
 master.menu.anonymous.francoBulletin.form= Create FrancoBulletin
 master.menu.anonymous.francoBulletin.list= List FrancoBulletin
 
+master.menu.anonymous.lopezBulletin.list = List LopezBulletin
+master.menu.anonymous.lopezBulletin.form = Create LopezBulletin
+
+master.menu.anonymous.vidalBulletin.list = List Vidal Bulletin
+master.menu.anonymous.vidalBulletin.form = Create Vidal Bulletin
+
+master.menu.anonymous.romeroBulletin.list = List Romero-Bulletin
+master.menu.anonymous.romeroBulletin.form = Create Romero-Bulletin
+
+master.menu.anonymous.gutierrezBulletin.list = List Gutierrez-Bulletin
+master.menu.anonymous.gutierrezBulletin.form = Create Gutierrez-Bulletin
 
 # master.menu.administrator ###################################################
 
