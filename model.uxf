@@ -299,10 +299,10 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>126</x>
-      <y>385</y>
+      <x>0</x>
+      <y>364</y>
       <w>217</w>
-      <h>70</h>
+      <h>77</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Shout
@@ -315,26 +315,10 @@ Shout
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>406</x>
-      <y>385</y>
-      <w>308</w>
+      <x>273</x>
+      <y>357</y>
+      <w>217</w>
       <h>84</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;Entity&gt;&gt;
-VidalBulletin
---
-+type: String {NotBlank, Pattern(ACADEMYC|SCIENTIFIC|OTHER)}
-+title: String {NotBlank}
-+author: String {NotBlank}
-+text: String {NotBlank}</panel_attributes>
-
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>196</x>
-      <y>441</y>
-      <w>350</w>
-      <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 RomeroBulletin
@@ -345,12 +329,12 @@ RomeroBulletin
 +moment: Date{Temporal(TIMESTAMP), Past}</panel_attributes>
     <additional_attributes/>
   </element>
-    <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>448</x>
+      <x>518</x>
       <y>357</y>
-      <w>350</w>
+      <w>217</w>
       <h>98</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
@@ -363,11 +347,11 @@ GutierrezBulletin
 +moment: Date{Temporal(TIMESTAMP), Past}</panel_attributes>
     <additional_attributes/>
   </element>
-    <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>77</x>
-      <y>441</y>
+      <x>0</x>
+      <y>448</y>
       <w>238</w>
       <h>98</h>
     </coordinates>
@@ -380,11 +364,11 @@ LopezBulletin
 +moment: Date {Temporal(TIMESTAMP), Past}</panel_attributes>
     <additional_attributes/>
   </element>
-    <element>
+  <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>350</y>
+      <x>273</x>
+      <y>455</y>
       <w>210</w>
       <h>84</h>
     </coordinates>

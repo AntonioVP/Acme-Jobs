@@ -29,12 +29,12 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `lopez_bulletin` (
+    create table `franco_bulletin` (
        `id` integer not null,
         `version` integer not null,
-        `location` varchar(255),
-        `moment` datetime(6),
-        `name` varchar(255),
+        `author` varchar(255),
+        `fecha` datetime(6),
+        `summary` varchar(255),
         `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
@@ -46,6 +46,16 @@
         `name` varchar(255),
         `novel` varchar(255),
         `opinion` varchar(255),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `lopez_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `location` varchar(255),
+        `moment` datetime(6),
+        `name` varchar(255),
         `text` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;

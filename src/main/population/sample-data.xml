@@ -98,7 +98,6 @@
 		<property name="author" value="Foo Bar" />
 		<property name="text" value="La realidad es que Leslie lo que quiere es vaguear." />
 	</bean>
-</beans>
 
 		<!-- Romero Bulletins-->
 
@@ -117,7 +116,7 @@
 	</bean>
 	
 	<bean id="romeroBulletin03" class="acme.entities.romeroBulletins.RomeroBulletin">
-		<property name="name" value="Rodrigo Vidal"/>
+		<property name="name" value="Macarena Vidal"/>
 		<property name="text" value="I am jobless" />
 		<property name="bibliography" value="I'm not very smart" />
 		<property name="moment" value="2019/06/07 01:00"/>
