@@ -299,8 +299,8 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>210</x>
-      <y>357</y>
+      <x>126</x>
+      <y>385</y>
       <w>217</w>
       <h>70</h>
     </coordinates>
@@ -313,6 +313,57 @@ Shout
     <additional_attributes/>
   </element>
   <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>406</x>
+      <y>385</y>
+      <w>308</w>
+      <h>84</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+VidalBulletin
+--
++type: String {NotBlank, Pattern(ACADEMYC|SCIENTIFIC|OTHER)}
++title: String {NotBlank}
++author: String {NotBlank}
++text: String {NotBlank}</panel_attributes>
+
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>196</x>
+      <y>441</y>
+      <w>350</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+RomeroBulletin
+--
++name: String {NotBlank}
++text: String {NotBlank}
++bibliography: String{NotBlank}
++moment: Date{Temporal(TIMESTAMP), Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
+    <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>448</x>
+      <y>357</y>
+      <w>350</w>
+      <h>98</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+GutierrezBulletin
+--
++name: String {NotBlank}
++text: String {NotBlank}
++novel: String{NotBlank}
++opinion: String{NotBlank}
++moment: Date{Temporal(TIMESTAMP), Past}</panel_attributes>
+    <additional_attributes/>
+  </element>
+    <element>
     <id>UMLClass</id>
     <coordinates>
       <x>77</x>

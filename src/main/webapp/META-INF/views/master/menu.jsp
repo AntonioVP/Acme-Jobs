@@ -30,7 +30,17 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout.form" action="/anonymous/shout/create"/>
 			
 			<acme:menu-suboption code="master.menu.anonymous.lopezBulletin.list" action="/anonymous/lopez-bulletin/list"/>
-      		<acme:menu-suboption code="master.menu.anonymous.lopezBulletin.form" action="/anonymous/lopez-bulletin/create"/>
+      <acme:menu-suboption code="master.menu.anonymous.lopezBulletin.form" action="/anonymous/lopez-bulletin/create"/>
+
+			<acme:menu-suboption code="master.menu.anonymous.gutierrezBulletin.list" action="/anonymous/gutierrez-bulletin/list"/>
+      <acme:menu-suboption code="master.menu.anonymous.gutierrezBulletin.form" action="/anonymous/gutierrez-bulletin/create"/>
+
+			<acme:menu-suboption code="master.menu.anonymous.vidalBulletin.list" action="/anonymous/vidal-bulletin/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.vidalBulletin.form" action="/anonymous/vidal-bulletin/create"/>
+
+			<acme:menu-suboption code="master.menu.anonymous.romeroBulletin.list" action="/anonymous/romero-bulletin/list"/>
+      <acme:menu-suboption code="master.menu.anonymous.romeroBulletin.form" action="/anonymous/romero-bulletin/create"/>
+
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">

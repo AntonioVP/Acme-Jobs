@@ -16,7 +16,7 @@ master.banner.background = #EFE4B0
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	Bienvenidos a Acme-Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
+	¡Bienvenidos a Acme-Jobs!  Nunca antes ha sido tan sencillo desarrollar un \
 	proyecto y hacerlo funcionar.
 
 # master.menu #################################################################
@@ -43,6 +43,15 @@ master.menu.anonymous.shout.form = Gritar!
 master.menu.anonymous.lopezBulletin.list = Listar LopezBoletin
 master.menu.anonymous.lopezBulletin.form = Crear LopezBoletin
 
+master.menu.anonymous.gutierrezBulletin.list = Listar Gutierrez-Boletines
+master.menu.anonymous.gutierrezBulletin.form = Crear Gutierrez-Boletines
+
+master.menu.anonymous.vidalBulletin.list = Listar Bulletin Vidal
+master.menu.anonymous.vidalBulletin.form = Crear Bulletin Vidal
+
+master.menu.anonymous.romeroBulletin.list = Listar Romero-Boletines
+master.menu.anonymous.romeroBulletin.form = Crear Romero-Boletines
+
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrador
@@ -68,7 +77,7 @@ master.menu.user-account.become-provider = Hazte proveedor
 master.menu.user-account.consumer = Datos de consumidor
 master.menu.user-account.become-consumer = Hazte consumidor
 
-﻿# master.footer ###############################################################
+# master.footer ###############################################################
 
 master.footer.title.about = Nosotros
 master.footer.label.company = La empresa
